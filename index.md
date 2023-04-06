@@ -4,6 +4,7 @@ label: ホーム
 order: 0
 title: ドキュメンテーション
 ---
+#
 ![](/assets/img/about.png)
 
 TakasumiBOTは、1つのボットで多くの便利な機能を使用できる多機能ボットを目指しています。このWebページでは、TakasumiBOTの使用方法と設定方法について説明します
