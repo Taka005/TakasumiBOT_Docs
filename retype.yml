@@ -6,9 +6,17 @@ favicon: ./assets/img/icon.png
 branding:
   title: TakasumiBOT
   logo: ./assets/img/icon.png
+  description: TakasumiBOTドキュメンテーション
 links:
-- text: ホーム
-  link: https://docs.taka.ml
+  - text: ホーム
+    icon: home
+    link: https://docs.taka.ml
+  - text: 導入
+    link: https://discord.com/oauth2/authorize?client_id=981314695543783484&permissions=8796093022199&scope=bot%20applications.commands
+    icon: person-add
+  - text: サポート
+    link: https://discord.gg/NEesRdGQwD
+    icon: shield-check
 footer:
   copyright: "&copy; Copyright {{ year }} Taka005. All rights reserved."
 edit:
