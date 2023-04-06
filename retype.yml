@@ -22,3 +22,11 @@ footer:
 edit:
   repo: "https://github.com/Taka005/TakasumiBOT_Docs"
   label: 編集
+search:
+  hotkeys:
+    - "/"
+  maxResults: 20
+  minChars: 2
+  mode: partial
+  noResultsFoundMsg: "見つかりません"
+  placeholder: "検索"
