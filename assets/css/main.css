@@ -4,6 +4,11 @@
     margin-right: 10%;
 }
 
+.link {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
