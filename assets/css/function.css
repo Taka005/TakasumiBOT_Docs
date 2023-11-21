@@ -4,6 +4,14 @@ main .container {
 
 .function {
     margin-bottom: 20px;
+    position: relative;
+}
+.function a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
 }
 
 .icon {
