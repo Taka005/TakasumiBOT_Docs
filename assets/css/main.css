@@ -1,3 +1,9 @@
+.top {
+    margin-top: 130px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
