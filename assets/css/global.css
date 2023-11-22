@@ -8,9 +8,9 @@ footer {
 footer .container {
     width: auto;
     max-width: 680px;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 footer .text-muted {
-    margin: 10px 0;
+    margin: 20px 0;
 }
