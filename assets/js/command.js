@@ -13,8 +13,9 @@
     "contextmenu": "コンテキストメニュー"
   };
 
+  const params = new URLSearchParams(window.location.search);
+
   const type = params.get("type");
-  console.log(type)
   if(types[type]){
     const command = await fetch("/assets/commands.json")
       .then(res=>res.json())
