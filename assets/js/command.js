@@ -18,7 +18,7 @@
   const type = params.get("type");
   console.log(type)
   if(types[type]){
-    const command = await fetch("/assets/commands.json")
+    const command = await fetch("/assets/commandlist.json")
       .then(res=>res.json())
       .catch(error=>{
         console.log(error);
@@ -26,5 +26,7 @@
 
     const list = command.filter(c=>c.type === type);
     console.log(list);
+
+    document.getElementById("name").innerText = types[type];
   }
 })
