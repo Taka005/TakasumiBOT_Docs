@@ -14,14 +14,14 @@
   };
 
   const type = params.get("type");
-  if(type.length > 0&&types[type]){
-    const data = await fetch("/assets/command.js")
+  if(types[type]){
+    const command = await fetch("/assets/command.js")
       .then(res=>res.json())
       .catch(error=>{
         console.log(error);
       });
 
-    const list = data.filter(c=>c.type === type);
+    const list = command.filter(c=>c.type === type);
     console.log(list);
   }
 })
