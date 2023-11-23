@@ -14,6 +14,7 @@
   };
 
   const type = params.get("type");
+  console.log(type)
   if(types[type]){
     const command = await fetch("/assets/command.js")
       .then(res=>res.json())
