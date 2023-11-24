@@ -17,15 +17,34 @@
 
   const type = params.get("type");
   if(types[type]){
-    const command = await fetch("/assets/commandlist.json")
+    const commands = await fetch("/assets/commandlist.json")
       .then(res=>res.json())
       .catch(error=>{
         console.log(error);
       });
 
-    const list = command.filter(c=>c.type === type);
-    console.log(list);
+    const list = commands.filter(c=>c.type === type);
 
     document.getElementById("name").innerText = types[type];
+
+    document.querySelector(".list").insertAdjacentHTML("afterbegin",
+      list.map(c=>{
+        return `
+          <div class="col-sm-4 command">
+            <div class="card text-center h-100">
+              <div class="card-body">
+                <h5 class="card-title">${c.name}</h5>
+                <p class="card-text">${c.description}</p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">ユーザー権限<br>${c.userPermission.join("<br>")}</li>
+                  <li class="list-group-item">BOT権限<br>${c.botPermission.join("<br>")}</li>
+                </ul>
+                <p class="card-text"><small class="text-muted">${c.note}</small></p>
+              </div>
+            </div>
+          </div>
+        `;
+      })
+    );
   }
 })();
