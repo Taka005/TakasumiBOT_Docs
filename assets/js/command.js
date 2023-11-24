@@ -1,4 +1,3 @@
-console.log("A")
 (async function(){
   const types = {
     "info": "情報",
@@ -29,4 +28,4 @@ console.log("A")
 
     document.getElementById("name").innerText = types[type];
   }
-})
+})();
