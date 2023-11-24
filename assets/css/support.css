@@ -3,7 +3,7 @@ main .container {
 }
 
 .links {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -16,6 +16,5 @@ main .container {
 
 .icon {
     width: 100px;
-    height: 100px;
     margin: 15px
 }
