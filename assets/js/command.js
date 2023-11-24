@@ -35,16 +35,16 @@
               <div class="card-body">
                 <h5 class="card-title">${c.name}</h5>
                 <p class="card-text">${c.description}</p>
+                ${c.note !== "なし" ? `<p class="card-text text-muted">${c.note}</p>` : ""}
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">ユーザー権限<br>${c.userPermission.join("<br>")}</li>
-                  <li class="list-group-item">BOT権限<br>${c.botPermission.join("<br>")}</li>
+                  <li class="list-group-item"><strong>ユーザー権限</strong><br>${c.userPermission.join("<br>")}</li>
+                  <li class="list-group-item"><strong>BOT権限</strong><br>${c.botPermission.join("<br>")}</li>
                 </ul>
-                <p class="card-text"><small class="text-muted">${c.note}</small></p>
               </div>
             </div>
           </div>
         `;
-      })
+      }).join("")
     );
   }
 })();
