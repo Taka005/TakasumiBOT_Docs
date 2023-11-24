@@ -1,3 +1,4 @@
+console.log("A")
 (async function(){
   const types = {
     "info": "情報",
@@ -16,7 +17,6 @@
   const params = new URLSearchParams(window.location.search);
 
   const type = params.get("type");
-  console.log(type)
   if(types[type]){
     const command = await fetch("/assets/commandlist.json")
       .then(res=>res.json())
