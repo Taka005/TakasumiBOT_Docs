@@ -1,8 +1,18 @@
+.link {
+    margin-top: 10px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+
 main .container {
     margin-top: 90px;
 }
 
-.link {
+.links {
     margin-top: 50px;
     margin-left: 10%;
     margin-right: 10%;
