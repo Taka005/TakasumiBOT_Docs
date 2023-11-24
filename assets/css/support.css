@@ -2,16 +2,8 @@ main .container {
     margin-top: 90px;
 }
 
-.table {
+.link {
     margin-top: 50px;
     margin-left: 10%;
     margin-right: 10%;
-}
-
-td {
-    width: 30%;
-}
-
-th {
-    width: 30%;
 }
