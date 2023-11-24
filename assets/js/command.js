@@ -33,7 +33,7 @@
           <div class="col-sm-4 command">
             <div class="card text-center h-100">
               <div class="card-body">
-                <h5 class="card-title">${c.name}</h5>
+                <h5 class="card-title"><strong>${c.name}</strong></h5>
                 <p class="card-text">${c.description}</p>
                 ${c.note !== "なし" ? `<p class="card-text text-muted"><small>${c.note}</small></p>` : ""}
                 <p class="card-text"><strong>ユーザー権限</strong><br>${c.userPermission.join("<br>")}</p>
