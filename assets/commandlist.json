@@ -684,7 +684,7 @@
     "type": "tool",
     "name": "/qr",
     "description": "QRコードを生成・読み取ります",
-    "example": "/qr 生成 text<em/><br>/qr 読み込む https://example.com/qr.png",
+    "example": "/qr 生成 text<br>/qr 読み込む https://example.com/qr.png",
     "userPermission": [
       "必要なし"
     ],
