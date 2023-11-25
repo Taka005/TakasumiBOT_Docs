@@ -3,7 +3,7 @@
     "type": "fun",
     "name": "/5000",
     "description": "5000兆円ジェネレーター",
-    "example": "<em>/5000 上の文字 下の文字</em>",
+    "example": "/5000 上の文字 下の文字",
     "userPermission": [
       "必要なし"
     ],
@@ -16,7 +16,7 @@
     "type": "bot",
     "name": "/about",
     "description": "BOTについての情報や、関連リンクを表示します",
-    "example": "<em>/about</em>",
+    "example": "/about",
     "userPermission": [
       "必要なし"
     ],
@@ -29,7 +29,7 @@
     "type": "bot",
     "name": "/account",
     "description": "登録されているアカウント情報を表示します",
-    "example": "<em>/account</em>",
+    "example": "/account",
     "userPermission": [
       "必要なし"
     ],
@@ -42,7 +42,7 @@
     "type": "info",
     "name": "/activity",
     "description": "同じアクティビティの人を表示します",
-    "example": "<em>/activity</em>",
+    "example": "/activity",
     "userPermission": [
       "必要なし"
     ],
@@ -68,7 +68,7 @@
     "type": "othor",
     "name": "/afk",
     "description": "AFK(留守電)を設定できます",
-    "example": "<em>/afk お出かけ中</em>",
+    "example": "/afk お出かけ中",
     "userPermission": [
       "必要なし"
     ],
@@ -81,7 +81,7 @@
     "type": "info",
     "name": "/analytics",
     "description": "サーバーの分析データを生成します",
-    "example": "<em>/analytics 月ごとのユーザー参加数</em>",
+    "example": "/analytics 月ごとのユーザー参加数",
     "userPermission": [
       "必要なし"
     ],
@@ -94,7 +94,7 @@
     "type": "server",
     "name": "/announce",
     "description": "アナウンスチャンネルで送信されたメッセージを自動で公開します",
-    "example": "<em>/announce</em>",
+    "example": "/announce",
     "userPermission": [
       "チャンネルの管理",
       "メッセージの管理"
@@ -111,7 +111,7 @@
     "type": "manage",
     "name": "/auth",
     "description": "メンバー認証を設定します\n4種類の認証方式を選択できます",
-    "example": "<em>/auth 標準</em>",
+    "example": "/auth 標準",
     "userPermission": [
       "ロールの管理"
     ],
@@ -126,7 +126,7 @@
     "type": "info",
     "name": "/avatar",
     "description": "指定されたユーザーのアイコンを表示します",
-    "example": "<em>/avatar @TakasumiBOT</em><br><em>/avatar 981314695543783484</em>",
+    "example": "/avatar @TakasumiBOT<br>/avatar 981314695543783484",
     "userPermission": [
       "必要なし"
     ],
@@ -139,7 +139,7 @@
     "type": "manage",
     "name": "/ban",
     "description": "メンバー・ユーザーをサーバーからBANすることができます",
-    "example": "<em>/ban @Arashi</em><br><em>/ban 1066168542669590599</em>",
+    "example": "/ban @Arashi<br>/ban 1066168542669590599",
     "userPermission": [
       "メンバーをBAN"
     ],
@@ -152,7 +152,7 @@
     "type": "tool",
     "name": "/button",
     "description": "URLのボタンを生成します",
-    "example": "<em>/button Name https://google.com</em>",
+    "example": "/button Name https://google.com",
     "userPermission": [
       "必要なし"
     ],
@@ -165,7 +165,7 @@
     "type": "info",
     "name": "/channel",
     "description": "指定したチャンネルの情報を表示します",
-    "example": "<em>/channel #一般</em>",
+    "example": "/channel #一般",
     "userPermission": [
       "必要なし"
     ],
@@ -178,7 +178,7 @@
     "type": "fun",
     "name": "/char",
     "description": "意図的に文字化け、復元をします",
-    "example": "<em>/char 文字化け moji</em><br><em>/char 復元 阿懿燠ヱ淤</em>",
+    "example": "/char 文字化け moji<br>/char 復元 阿懿燠ヱ淤",
     "userPermission": [
       "必要なし"
     ],
@@ -191,7 +191,7 @@
     "type": "tool",
     "name": "/cipher",
     "description": "文字列を暗号・復号します",
-    "example": "<em>/cipher 暗号化 moji key</em><br><em>/cipher 復号化 d1faf7e95c key</em>",
+    "example": "/cipher 暗号化 moji key<br>/cipher 復号化 d1faf7e95c key",
     "userPermission": [
       "必要なし"
     ],
@@ -204,7 +204,7 @@
     "type": "manage",
     "name": "/colorrole",
     "description": "色付きロールを簡単に作成できます",
-    "example": "<em>/colorrole 白</em>",
+    "example": "/colorrole 白",
     "userPermission": [
       "ロールの管理"
     ],
@@ -217,7 +217,7 @@
     "type": "manage",
     "name": "/del",
     "description": "指定された数だけメッセージを一括で削除します",
-    "example": "<em>/del 30</em><br><em>/del 30 @Arashi</em>",
+    "example": "/del 30<br>/del 30 @Arashi",
     "userPermission": [
       "メッセージの管理"
     ],
@@ -230,7 +230,7 @@
     "type": "info",
     "name": "/double",
     "description": "指定したユーザーのサブアカウントを検出します",
-    "example": "<em>/double @User</em>",
+    "example": "/double @User",
     "userPermission": [
       "必要なし"
     ],
@@ -243,7 +243,7 @@
     "type": "server",
     "name": "/embed",
     "description": "埋め込みを簡単に作成し表示できます",
-    "example": "<em>/embed</em>",
+    "example": "/embed",
     "userPermission": [
       "必要なし"
     ],
@@ -256,7 +256,7 @@
     "type": "info",
     "name": "/emoji",
     "description": "指定した絵文字の情報を表示します",
-    "example": "<em>/emoji 🤔</em>",
+    "example": "/emoji 🤔",
     "userPermission": [
       "必要なし"
     ],
@@ -269,7 +269,7 @@
     "type": "server",
     "name": "/enquete",
     "description": "アンケートを作成することができます",
-    "example": "<em>/enquete title</em>",
+    "example": "/enquete title",
     "userPermission": [
       "必要なし"
     ],
@@ -283,7 +283,7 @@
     "type": "othor",
     "name": "/export",
     "description": "サーバーのデータをJSON形式に出力します",
-    "example": "<em>/export</em>",
+    "example": "/export",
     "userPermission": [
       "管理者"
     ],
@@ -296,7 +296,7 @@
     "type": "bot",
     "name": "/follow",
     "description": "BOTのアナウンスチャンネルを追加します",
-    "example": "<em>/follow</em>",
+    "example": "/follow",
     "userPermission": [
       "チャンネルの管理"
     ],
@@ -309,7 +309,7 @@
     "type": "search",
     "name": "/gif",
     "description": "GIF画像を検索して表示します",
-    "example": "<em>/gif Happy</em>",
+    "example": "/gif Happy",
     "userPermission": [
       "必要なし"
     ],
@@ -322,7 +322,7 @@
     "type": "server",
     "name": "/globalchat",
     "description": "色々なサーバーと繋がるグローバルチャットを有効化、無効化します",
-    "example": "<em>/globalchat</em>",
+    "example": "/globalchat",
     "userPermission": [
       "チャンネルの管理"
     ],
@@ -339,7 +339,7 @@
     "type": "tool",
     "name": "/graph",
     "description": "数式からグラフを生成します",
-    "example": "<em>/graph 2*x x+5</em>",
+    "example": "/graph 2*x x+5",
     "userPermission": [
       "必要なし"
     ],
@@ -352,7 +352,7 @@
     "type": "money",
     "name": "/guess",
     "description": "所持金を使用して数字当てゲームをします",
-    "example": "<em>/guess 100 3</em>",
+    "example": "/guess 100 3",
     "userPermission": [
       "必要なし"
     ],
@@ -365,7 +365,7 @@
     "type": "manage",
     "name": "/guideline",
     "description": "サーバーのガイドラインを作成し、同意するとロールが付与されます",
-    "example": "<em>/guideline @Role</em>",
+    "example": "/guideline @Role",
     "userPermission": [
       "ロールの管理"
     ],
@@ -380,7 +380,7 @@
     "type": "tool",
     "name": "/hash",
     "description": "指定した方式でテキストをハッシュ化します",
-    "example": "<em>/hash テキスト SHA256</em>",
+    "example": "/hash テキスト SHA256",
     "userPermission": [
       "必要なし"
     ],
@@ -393,7 +393,7 @@
     "type": "othor",
     "name": "/help",
     "description": "使い方を表示します",
-    "example": "<em>/help</em><br><em>/help auth</em>",
+    "example": "/help<br>/help auth",
     "userPermission": [
       "必要なし"
     ],
@@ -406,7 +406,7 @@
     "type": "fun",
     "name": "/hiroyuki",
     "description": "ひろゆきを召喚、退出します",
-    "example": "<em>/hiroyuki</em>",
+    "example": "/hiroyuki",
     "userPermission": [
       "チャンネルの管理"
     ],
@@ -422,7 +422,7 @@
     "type": "server",
     "name": "/invite",
     "description": "カスタマイズされた招待リンクを作成します",
-    "example": "<em>/invite 100 1</em><br><em>/invite 500</em>",
+    "example": "/invite 100 1<br>/invite 500",
     "userPermission": [
       "招待リンクの作成"
     ],
@@ -435,7 +435,7 @@
     "type": "info",
     "name": "/inviter",
     "description": "招待ランキングを表示します",
-    "example": "<em>/inviter</em>",
+    "example": "/inviter",
     "userPermission": [
       "必要なし"
     ],
@@ -448,7 +448,7 @@
     "type": "info",
     "name": "/invites",
     "description": "サーバー又はユーザーの招待一覧を表示します",
-    "example": "<em>/invites</em><br><em>/invites @TakasumiBOT</em>",
+    "example": "/invites<br>/invites @TakasumiBOT",
     "userPermission": [
       "必要なし"
     ],
@@ -461,7 +461,7 @@
     "type": "manage",
     "name": "/kick",
     "description": "指定されたメンバーをサーバーからKICKします",
-    "example": "<em>/kick @Arashi</em>",
+    "example": "/kick @Arashi",
     "userPermission": [
       "メンバーをKICK"
     ],
@@ -474,7 +474,7 @@
     "type": "money",
     "name": "/leaderboard",
     "description": "お金持ちランキングを表示します",
-    "example": "<em>/leaderboard</em>",
+    "example": "/leaderboard",
     "userPermission": [
       "必要なし"
     ],
@@ -487,7 +487,7 @@
     "type": "othor",
     "name": "/log",
     "description": "チャットの履歴を出力します",
-    "example": "<em>/log JSON 10</em>",
+    "example": "/log JSON 10",
     "userPermission": [
       "必要なし"
     ],
@@ -500,7 +500,7 @@
     "type": "server",
     "name": "/lottery",
     "description": "指定したロールを持っているメンバーから指定した人数を選びます",
-    "example": "<em>/lottery 10 @Role</em>",
+    "example": "/lottery 10 @Role",
     "userPermission": [
       "必要なし"
     ],
@@ -513,7 +513,7 @@
     "type": "tool",
     "name": "/math",
     "description": "式を計算します",
-    "example": "<em>/math 4 * 25</em>",
+    "example": "/math 4 * 25",
     "userPermission": [
       "必要なし"
     ],
@@ -526,7 +526,7 @@
     "type": "tool",
     "name": "/mc",
     "description": "指定したアドレスのMinecraftサーバーの情報を表示します",
-    "example": "<em>/mc Java版 2b2t.jp</em>",
+    "example": "/mc Java版 2b2t.jp",
     "userPermission": [
       "必要なし"
     ],
@@ -539,7 +539,7 @@
     "type": "fun",
     "name": "/miq",
     "description": "Make it a Quoteを生成します",
-    "example": "<em>/miq これはテストです</em>",
+    "example": "/miq これはテストです",
     "userPermission": [
       "必要なし"
     ],
@@ -552,7 +552,7 @@
     "type": "manage",
     "name": "/moderate",
     "description": "AutoModを使用したモデレート機能を設定します",
-    "example": "<em>/moderate spam</em>",
+    "example": "/moderate spam",
     "userPermission": [
       "サーバーの管理"
     ],
@@ -565,7 +565,7 @@
     "type": "money",
     "name": "/money",
     "description": "ユーザーの所持金を確認します",
-    "example": "<em>/money @User</em>",
+    "example": "/money @User",
     "userPermission": [
       "必要なし"
     ],
@@ -578,7 +578,7 @@
     "type": "tool",
     "name": "/nslookup",
     "description": "DNS情報を取得します",
-    "example": "<em>/nslookup google.com</em>",
+    "example": "/nslookup google.com",
     "userPermission": [
       "必要なし"
     ],
@@ -591,7 +591,7 @@
     "type": "fun",
     "name": "/number",
     "description": "進数の変換をします",
-    "example": "<em>/number 10進数 2進数 120</em>",
+    "example": "/number 10進数 2進数 120",
     "userPermission": [
       "必要なし"
     ],
@@ -604,7 +604,7 @@
     "type": "fun",
     "name": "/omikuji",
     "description": "おみくじを引きます",
-    "example": "<em>/omikuji</em>",
+    "example": "/omikuji",
     "userPermission": [
       "必要なし"
     ],
@@ -617,7 +617,7 @@
     "type": "search",
     "name": "/pachage",
     "description": "パッケージを検索して表示します",
-    "example": "<em>/package NPM discord.js</em>",
+    "example": "/package NPM discord.js",
     "userPermission": [
       "必要なし"
     ],
@@ -630,7 +630,7 @@
     "type": "manage",
     "name": "/panel",
     "description": "役職パネルを作成します",
-    "example": "<em>/panel title @Role1 @Role2</em>",
+    "example": "/panel title @Role1 @Role2",
     "userPermission": [
       "ロールの管理"
     ],
@@ -645,7 +645,7 @@
     "type": "money",
     "name": "/pay",
     "description": "所持金を使用して機能を購入します",
-    "example": "<em>/pay 種類 10</em>",
+    "example": "/pay 種類 10",
     "userPermission": [
       "必要なし"
     ],
@@ -658,7 +658,7 @@
     "type": "info",
     "name": "/permission",
     "description": "指定されたユーザーの権限を表示します",
-    "example": "<em>/permission @TakasumiBOT</em>",
+    "example": "/permission @TakasumiBOT",
     "userPermission": [
       "必要なし"
     ],
@@ -671,7 +671,7 @@
     "type": "server",
     "name": "/poll",
     "description": "投票を作成することができます",
-    "example": "<em>/poll Title One two Three</em>",
+    "example": "/poll Title One two Three",
     "userPermission": [
       "必要なし"
     ],
@@ -684,7 +684,7 @@
     "type": "tool",
     "name": "/qr",
     "description": "QRコードを生成・読み取ります",
-    "example": "<em>/qr 生成 text<em/><br><em>/qr 読み込む https://example.com/qr.png</em>",
+    "example": "/qr 生成 text<em/><br>/qr 読み込む https://example.com/qr.png",
     "userPermission": [
       "必要なし"
     ],
@@ -697,7 +697,7 @@
     "type": "fun",
     "name": "/random",
     "description": "ランダムで選びます",
-    "example": "<em>/random A B C</em>",
+    "example": "/random A B C",
     "userPermission": [
       "必要なし"
     ],
@@ -710,7 +710,7 @@
     "type": "board",
     "name": "/register",
     "description": "サーバー掲示板に登録、削除を行います",
-    "example": "<em>/register</em>",
+    "example": "/register",
     "userPermission": [
       "管理者"
     ],
@@ -723,7 +723,7 @@
     "type": "manage",
     "name": "/reset",
     "description": "実行したチャンネルを完全にリセットします",
-    "example": "<em>/reset</em>",
+    "example": "/reset",
     "userPermission": [
       "管理者"
     ],
@@ -738,7 +738,7 @@
     "type": "fun",
     "name": "/retranslate",
     "description": "様々な言語で翻訳を30回繰り返します",
-    "example": "<em>/retranslate こんにちは</em>",
+    "example": "/retranslate こんにちは",
     "userPermission": [
       "必要なし"
     ],
@@ -751,7 +751,7 @@
     "type": "info",
     "name": "/role",
     "description": "指定した役職の情報を表示します",
-    "example": "<em>/role @Role</em>",
+    "example": "/role @Role",
     "userPermission": [
       "必要なし"
     ],
@@ -764,7 +764,7 @@
     "type": "info",
     "name": "/rolecount",
     "description": "それぞれのロールを持っている人数と割合を表示します",
-    "example": "<em>/rolecount</em>",
+    "example": "/rolecount",
     "userPermission": [
       "必要なし"
     ],
@@ -777,7 +777,7 @@
     "type": "tool",
     "name": "/safeweb",
     "description": "Webサイトの安全性を評価します",
-    "example": "<em>/safeweb https://google.com/</em>",
+    "example": "/safeweb https://google.com/",
     "userPermission": [
       "必要なし"
     ],
@@ -790,7 +790,7 @@
     "type": "tool",
     "name": "/script",
     "description": "プログラムを実行します",
-    "example": "<em>/script JavaScript</em>",
+    "example": "/script JavaScript",
     "userPermission": [
       "必要なし"
     ],
@@ -803,7 +803,7 @@
     "type": "info",
     "name": "/server",
     "description": "サーバーの情報を表示します",
-    "example": "<em>/server</em>",
+    "example": "/server",
     "userPermission": [
       "必要なし"
     ],
@@ -816,7 +816,7 @@
     "type": "manage",
     "name": "/setting",
     "description": "サーバーの各種設定を変更します",
-    "example": "<em>/setting bump @Role</em><br><em>/setting help</em>",
+    "example": "/setting bump @Role<br>/setting help",
     "userPermission": [
       "管理者"
     ],
@@ -831,7 +831,7 @@
     "type": "tool",
     "name": "/short",
     "description": "短縮URLを作成します",
-    "example": "<em>/short https://google.com/</em>",
+    "example": "/short https://google.com/",
     "userPermission": [
       "必要なし"
     ],
@@ -844,7 +844,7 @@
     "type": "tool",
     "name": "/skin",
     "description": "マインクラフトのスキンを検索します",
-    "example": "<em>/skin User</em>",
+    "example": "/skin User",
     "userPermission": [
       "必要なし"
     ],
@@ -857,7 +857,7 @@
     "type": "manage",
     "name": "/slowmode",
     "description": "チャンネルに低速モードを設定します",
-    "example": "<em>/slowmode 100</em>",
+    "example": "/slowmode 100",
     "userPermission": [
       "チャンネルの管理"
     ],
@@ -870,7 +870,7 @@
     "type": "othor",
     "name": "/snowflake",
     "description": "Snowflakeを解析します",
-    "example": "<em>/snowflake 987698915820335124</em>",
+    "example": "/snowflake 987698915820335124",
     "userPermission": [
       "必要なし"
     ],
@@ -883,7 +883,7 @@
     "type": "bot",
     "name": "/status",
     "description": "BOTの情報やサーバーの状態を表示します",
-    "example": "<em>/status</em>",
+    "example": "/status",
     "userPermission": [
       "必要なし"
     ],
@@ -896,7 +896,7 @@
     "type": "manage",
     "name": "/ticket",
     "description": "簡易的なチケット機能を作成します",
-    "example": "<em>/ticket チケット 説明</em>",
+    "example": "/ticket チケット 説明",
     "userPermission": [
       "チャンネルの管理",
       "メッセージの管理"
@@ -912,7 +912,7 @@
     "type": "manage",
     "name": "/timeout",
     "description": "指定したメンバーをタイムアウトします",
-    "example": "<em>/timeout @Arashi 1000 荒らし</em><br><em>/timeout @Arashi</em>",
+    "example": "/timeout @Arashi 1000 荒らし<br>/timeout @Arashi",
     "userPermission": [
       "メンバーをモデレート"
     ],
@@ -925,7 +925,7 @@
     "type": "server",
     "name": "/top",
     "description": "実行したチャンネルの1番最初のメッセージリンクを表示します",
-    "example": "<em>/top</em>",
+    "example": "/top",
     "userPermission": [
       "必要なし"
     ],
@@ -939,7 +939,7 @@
     "type": "tool",
     "name": "/translate",
     "description": "テキストを翻訳します",
-    "example": "<em>/translate hello 日本語</em><br><em>/translate こんにちは 英語</em>",
+    "example": "/translate hello 日本語<br>/translate こんにちは 英語",
     "userPermission": [
       "必要なし"
     ],
@@ -952,7 +952,7 @@
     "type": "search",
     "name": "/twitter",
     "description": "ツイートを検索します",
-    "example": "<em>/twitter Discord</em>",
+    "example": "/twitter Discord",
     "userPermission": [
       "必要なし"
     ],
@@ -965,7 +965,7 @@
     "type": "board",
     "name": "/up",
     "description": "サーバー掲示板の表示順位を上げます",
-    "example": "<em>/up</em>",
+    "example": "/up",
     "userPermission": [
       "必要なし"
     ],
@@ -978,7 +978,7 @@
     "type": "info",
     "name": "/user",
     "description": "指定されたユーザーを検索して表示します",
-    "example": "<em>/user @TakasumiBOT</em><br><em>/user 981314695543783484</em>",
+    "example": "/user @TakasumiBOT<br>/user 981314695543783484",
     "userPermission": [
       "必要なし"
     ],
@@ -991,7 +991,7 @@
     "type": "manage",
     "name": "/warn",
     "description": "指定されたユーザーを警告します",
-    "example": "<em>/warn @Arashi</em>",
+    "example": "/warn @Arashi",
     "userPermission": [
       "サーバーの管理"
     ],
@@ -1004,7 +1004,7 @@
     "type": "tool",
     "name": "/webshot",
     "description": "Webサイトのスクリーンショットを撮影します",
-    "example": "<em>/webshot https://google.com/</em>",
+    "example": "/webshot https://google.com/",
     "userPermission": [
       "必要なし"
     ],
@@ -1017,7 +1017,7 @@
     "type": "search",
     "name": "/whois",
     "description": "Whois検索をします",
-    "example": "<em>/whois google.com</em>",
+    "example": "/whois google.com",
     "userPermission": [
       "必要なし"
     ],
@@ -1030,7 +1030,7 @@
     "type": "search",
     "name": "/wiki",
     "description": "Wikipediaの検索をします",
-    "example": "<em>/wiki Discord</em>",
+    "example": "/wiki Discord",
     "userPermission": [
       "必要なし"
     ],
@@ -1043,7 +1043,7 @@
     "type": "money",
     "name": "/work",
     "description": "20分に1回お金を貰えます",
-    "example": "<em>/work</em>",
+    "example": "/work",
     "userPermission": [
       "必要なし"
     ],
@@ -1056,7 +1056,7 @@
     "type": "search",
     "name": "/yahoo",
     "description": "Yahooで検索します",
-    "example": "<em>/yahoo discord.js</em>",
+    "example": "/yahoo discord.js",
     "userPermission": [
       "必要なし"
     ],
@@ -1069,7 +1069,7 @@
     "type": "tool",
     "name": "/youtube",
     "description": "Youtubeの動画の情報を取得します",
-    "example": "<em>/youtube DCTBgUVCdhM</em>",
+    "example": "/youtube DCTBgUVCdhM",
     "userPermission": [
       "必要なし"
     ],
@@ -1082,7 +1082,7 @@
     "type": "contextmenu",
     "name": "アバターを表示",
     "description": "ユーザーのアイコンを表示します",
-    "example": "<em>アバターを表示</em>をクリック",
+    "example": "アバターを表示をクリック",
     "userPermission": [
       "必要なし"
     ],
@@ -1095,7 +1095,7 @@
     "type": "contextmenu",
     "name": "メンバー情報を表示",
     "description": "メンバーの情報を表示します",
-    "example": "<em>メンバー情報を表示</em>をクリック",
+    "example": "メンバー情報を表示をクリック",
     "userPermission": [
       "必要なし"
     ],
@@ -1108,7 +1108,7 @@
     "type": "contextmenu",
     "name": "Make it a Quote",
     "description": "Make it a Quoteを生成します",
-    "example": "<em>Make it a Quote</em>をクリック",
+    "example": "Make it a Quoteをクリック",
     "userPermission": [
       "必要なし"
     ],
@@ -1121,7 +1121,7 @@
     "type": "contextmenu",
     "name": "権限を表示",
     "description": "メンバーの持っている権限を表示します",
-    "example": "<em>権限を表示</em>をクリック",
+    "example": "権限を表示をクリック",
     "userPermission": [
       "必要なし"
     ],
@@ -1134,7 +1134,7 @@
     "type": "contextmenu",
     "name": "メッセージをピン留め",
     "description": "メッセージを常に下に表示します",
-    "example": "<em>メッセージをピン留め</em>をクリック",
+    "example": "メッセージをピン留めをクリック",
     "userPermission": [
       "チャンネルの管理",
       "メッセージの管理"
@@ -1151,7 +1151,7 @@
     "type": "contextmenu",
     "name": "英語に翻訳",
     "description": "メッセージを英語に翻訳します",
-    "example": "<em>英語に翻訳</em>をクリック",
+    "example": "英語に翻訳をクリック",
     "userPermission": [
       "必要なし"
     ],
@@ -1164,7 +1164,7 @@
     "type": "contextmenu",
     "name": "日本語に翻訳",
     "description": "メッセージを日本語に翻訳します",
-    "example": "<em>日本語に翻訳</em>をクリック",
+    "example": "日本語に翻訳をクリック",
     "userPermission": [
       "必要なし"
     ],
