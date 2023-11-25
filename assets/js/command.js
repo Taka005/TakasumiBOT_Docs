@@ -24,9 +24,9 @@
 
     document.getElementById("name").innerText = types[type];
 
-    const commands = document.querySelector(".commands");
+    const commands = document.getElementsByClassName("commands");
 
-    commands.innerHTML = "";
+    commands.innerText = "";
 
     commands.insertAdjacentHTML("afterbegin",
       list.map(c=>{
