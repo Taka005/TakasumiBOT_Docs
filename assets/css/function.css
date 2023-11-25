@@ -1,0 +1,22 @@
+main .container {
+    margin-top: 90px;
+}
+
+.function {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.function a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
