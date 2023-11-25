@@ -24,7 +24,7 @@
 
     document.getElementById("name").innerText = types[type];
 
-    const commands = document.getElementsByClassName("commands");
+    const commands = document.getElementById("commands");
 
     commands.innerText = "";
 
