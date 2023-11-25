@@ -17,17 +17,18 @@
 
   const type = params.get("type");
   if(types[type]){
-    const commands = await fetch("/assets/commandlist.json")
+    const commandlist = await fetch("/assets/commandlist.json")
       .then(res=>res.json())
-      .catch(error=>{
-        console.log(error);
-      });
 
-    const list = commands.filter(c=>c.type === type);
+    const list = commandlist.filter(c=>c.type === type);
 
     document.getElementById("name").innerText = types[type];
 
-    document.querySelector(".list").insertAdjacentHTML("afterbegin",
+    const commands = document.querySelector(".commands");
+
+    commands.innerHTML = "";
+
+    commands.insertAdjacentHTML("afterbegin",
       list.map(c=>{
         return `
           <div class="col-sm-4 command">
