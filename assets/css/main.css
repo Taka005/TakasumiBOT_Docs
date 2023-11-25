@@ -10,7 +10,7 @@
 }
 
 .content {
-    margin-top: 50%;
+    margin-top: 40%;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -18,4 +18,9 @@
 .icon {
     height: 80px;
     margin: 15px
+}
+
+.card_body {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
