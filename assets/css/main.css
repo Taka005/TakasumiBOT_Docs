@@ -2,11 +2,20 @@
     margin-top: 230px;
     margin-left: 10%;
     margin-right: 10%;
-
-    height: 100vh;
 }
 
 .link {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.content {
+    margin-top: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.icon {
+    height: 80px;
+    margin: 15px
 }
