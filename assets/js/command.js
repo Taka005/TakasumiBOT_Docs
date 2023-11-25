@@ -35,10 +35,10 @@
               <div class="card-body">
                 <h5 class="card-title"><strong>${c.name}</strong></h5>
                 <p class="card-text">${c.description}</p>
-                ${c.note !== "なし" ? `<p class="card-text text-muted"><small>${c.note}</small></p>` : ""}
                 <p class="card-text"><strong>使用例</strong><br>${c.example}</p>
                 <p class="card-text"><strong>ユーザー権限</strong><br>${c.userPermission.join("<br>")}</p>
                 <p class="card-text"><strong>BOT権限</strong><br>${c.botPermission.join("<br>")}</p>
+                ${c.note !== "なし" ? `<p class="card-text text-muted"><small>${c.note}</small></p>` : ""}
               </div>
             </div>
           </div>
