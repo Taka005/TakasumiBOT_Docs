@@ -2,6 +2,8 @@
     margin-top: 230px;
     margin-left: 10%;
     margin-right: 10%;
+    height: 100vh;
+    box-sizing: border-box
 }
 
 .link {
@@ -11,6 +13,12 @@
 
 .info {
     margin-top: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.summary {
+    margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
 }
