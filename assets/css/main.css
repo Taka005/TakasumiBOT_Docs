@@ -26,6 +26,10 @@
     align-items: center;
 }
 
+.card {
+    margin-top: 10px;
+}
+
 .card-title {
     margin-bottom: 0px;
 }
