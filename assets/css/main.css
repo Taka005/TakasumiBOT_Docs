@@ -21,7 +21,7 @@
 }
 
 .card .col-md-4 {
-    padding: 0px;
+    padding: 0px !important;
 }
 
 .card .col-md-8 {
