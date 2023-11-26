@@ -2,7 +2,7 @@
     margin-top: 230px;
     margin-left: 10%;
     margin-right: 10%;
-    height: 80vh;
+    height: 70vh;
     box-sizing: border-box
 }
 
@@ -28,7 +28,7 @@
 }
 
 .card {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .card-title {
