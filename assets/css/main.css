@@ -11,8 +11,8 @@
 
 .content {
     margin-top: 40%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .icon {
@@ -21,7 +21,7 @@
 }
 
 .row > * {
-    padding: 0 !important;
+    padding: 0;
 }
 
 .card .col-md-8 {
