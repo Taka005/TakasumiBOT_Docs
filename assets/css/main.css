@@ -11,13 +11,17 @@
 
 .content {
     margin-top: 40%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .icon {
     height: 80px;
     margin: 15px
+}
+
+.card .col-md-4 {
+    padding: 0px;
 }
 
 .card .col-md-8 {
