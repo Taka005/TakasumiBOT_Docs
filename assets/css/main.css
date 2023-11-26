@@ -1,7 +1,3 @@
-body {
-    height: 100vh;
-}
-
 .top {
     margin-top: 230px;
     margin-left: 10%;
@@ -22,4 +18,10 @@ body {
 .icon {
     height: 80px;
     margin: 15px
+}
+
+.card .col-md-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
