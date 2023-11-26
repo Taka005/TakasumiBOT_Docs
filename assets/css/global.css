@@ -14,3 +14,14 @@ footer .container {
 footer .text-muted {
     margin: 20px 0;
 }
+
+.fadein {
+	opacity: 0.1;
+	transform: translate(0,50px);
+	transition: all 500ms;
+}
+
+.fadein .scrollin {
+	opacity: 1;
+	transform: translate(0,0);
+}

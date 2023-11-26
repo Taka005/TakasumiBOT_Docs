@@ -13,14 +13,6 @@
     margin-top: 40%;
     margin-left: 10%;
     margin-right: 10%;
-
-    animation: fadein 1s linear forwards;
-}
-
-@keyframes fadein {
-    100% {
-      opacity: 1;
-    }
 }
 
 .icon {
