@@ -13,15 +13,19 @@
     margin-top: 40%;
     margin-left: 10%;
     margin-right: 10%;
+
+    animation: fadein 1s linear forwards;
+}
+
+@keyframes fadein {
+    100% {
+      opacity: 1;
+    }
 }
 
 .icon {
     height: 80px;
     margin: 15px
-}
-
-.row > * {
-    padding: 0 !important;
 }
 
 .card .col-md-8 {
