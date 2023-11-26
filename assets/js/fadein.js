@@ -4,7 +4,7 @@ document.addEventListener("scroll",()=>{
 
     console.log(pos)
     console.log(window.scrollY)
-    if(window.scrollY > pos + 200){
+    if(-window.scrollY > pos + 200){
       ele.classList.add("scrollin");
     }
   });
