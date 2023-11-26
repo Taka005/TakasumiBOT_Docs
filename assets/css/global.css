@@ -21,7 +21,7 @@ footer .text-muted {
 	transition: all 500ms;
 }
 
-.fadein .scrollin {
+.scrollin {
 	opacity: 1;
 	transform: translate(0,0);
 }
