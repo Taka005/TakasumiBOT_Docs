@@ -1,3 +1,7 @@
+body {
+    height: 100vh;
+}
+
 .top {
     margin-top: 230px;
     margin-left: 10%;
@@ -18,12 +22,4 @@
 .icon {
     height: 80px;
     margin: 15px
-}
-
-.card_body {
-    display: flex;
-}
-
-.card_titile {
-    margin: auto;
 }
