@@ -9,5 +9,6 @@
 })();
 
 function trim(number){
-  return number.toString().slice(0,2);
+  const length = 10^(number.toString().length - 2);
+  return Math.round(number/length)*length;
 }
