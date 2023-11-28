@@ -4,11 +4,6 @@
 
   const data = status.data.pop();
 
-  document.querySelector(".server").innerText = `${trim(data.guild)}以上のサーバーに導入`;
-  document.querySelector(".user").innerText = `${trim(data.user)}以上のユーザーが利用`;
+  document.querySelector(".server").innerText = `${data.guild}以上のサーバーに導入`;
+  document.querySelector(".user").innerText = `${data.user}以上のユーザーが利用`;
 })();
-
-function trim(number){
-  const length = 10**(number.toString().length - 2);
-  return Math.round(number/length)*length;
-}
