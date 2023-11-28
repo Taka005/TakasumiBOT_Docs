@@ -6,12 +6,18 @@
     box-sizing: border-box
 }
 
-.link {
+.btn {
     padding-left: 50px;
     padding-right: 50px;
 }
 
 .info {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+}
+
+.link {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 100px;
