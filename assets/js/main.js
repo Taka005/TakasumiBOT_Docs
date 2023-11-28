@@ -4,6 +4,6 @@
 
   const data = status.data.pop();
 
-  document.querySelector(".server").innerText = `${data.guild}以上のサーバーに導入`;
-  document.querySelector(".user").innerText = `${data.user}以上のユーザーが利用`;
+  document.querySelector(".server").innerText = `${data.guild}サーバーに導入`;
+  document.querySelector(".user").innerText = `${data.user}ユーザーが利用`;
 })();
