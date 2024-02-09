@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://takasumibot.github.io/sitemap.xml
+Sitemap: https://takasumibot.com/sitemap.xml
