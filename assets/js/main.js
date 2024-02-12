@@ -1,5 +1,5 @@
 (async function(){
-  const status = await fetch("https://api.taka.cf/v1/status")
+  const status = await fetch("https://api.takasumibot.com/v1/status")
     .then(res=>res.json())
 
   const data = status.data.pop();
