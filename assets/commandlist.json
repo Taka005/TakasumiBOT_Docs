@@ -36,7 +36,7 @@
     "botPermission": [
       "必要なし"
     ],
-    "note": "アカウント情報の削除はサポートサーバーにて連絡してください"
+    "note": "アカウント情報の削除は[サポートサーバー](https://discord.gg/NEesRdGQwD)にて連絡してください"
   },
   {
     "type": "info",
@@ -110,7 +110,7 @@
   {
     "type": "manage",
     "name": "/auth",
-    "description": "メンバー認証を設定します\n4種類の認証方式を選択できます",
+    "description": "メンバー認証を設定します<br>4種類の認証方式を選択できます",
     "example": "/auth 標準",
     "userPermission": [
       "ロールの管理"
@@ -120,7 +120,7 @@
       "メッセージの送信",
       "チャンネルの閲覧"
     ],
-    "note": "標準: ボタンを押して認証します\n計算: 簡単な計算を行って認証します\n画像: 画像に表示される文字列を選択して認証します\nWeb: TakasumiBOT Authを使用しWebで認証します"
+    "note": "標準: ボタンを押して認証します<br>計算: 簡単な計算を行って認証します<br>画像: 画像に表示される文字列を選択して認証します<br>Web: TakasumiBOT Authを使用しWebで認証します"
   },
   {
     "type": "info",
@@ -185,7 +185,7 @@
     "botPermission": [
       "必要なし"
     ],
-    "note": "完全に復元することはできません\n長文になるほど復元率は減少します"
+    "note": "完全に復元することはできません<br>長文になるほど復元率は減少します"
   },
   {
     "type": "tool",
@@ -237,7 +237,7 @@
     "botPermission": [
       "必要なし"
     ],
-    "note": "TakasumiBOT Accountに登録されている必要があります\nWeb認証を使用することで確実に検出可能です"
+    "note": "TakasumiBOT Accountに登録されている必要があります<br>Web認証を使用することで確実に検出可能です"
   },
   {
     "type": "server",
@@ -296,7 +296,7 @@
     "type": "bot",
     "name": "/follow",
     "description": "BOTのアナウンスチャンネルを追加します",
-    "example": "/follow",
+    "example": "/follow アナウンス",
     "userPermission": [
       "チャンネルの管理"
     ],
@@ -333,7 +333,7 @@
       "メッセージの送信",
       "ウェブフックの管理"
     ],
-    "note": "会話するにはTakasumiBOT Authを使用し利用規約に同意する必要があります"
+    "note": "会話するにはTakasumiBOT Authを使用し[利用規約](https://www.takasumibot.com/terms.html)に同意する必要があります"
   },
   {
     "type": "tool",
@@ -359,7 +359,7 @@
     "botPermission": [
       "必要なし"
     ],
-    "note": "勝つと賭け金が2.5倍\n負けると賭け金から-1.5倍"
+    "note": "勝つと賭け金が2.5倍<br>負けると賭け金から-1.5倍"
   },
   {
     "type": "manage",
@@ -449,6 +449,19 @@
     "name": "/invites",
     "description": "サーバー又はユーザーの招待一覧を表示します",
     "example": "/invites<br>/invites @TakasumiBOT",
+    "userPermission": [
+      "必要なし"
+    ],
+    "botPermission": [
+      "必要なし"
+    ],
+    "note": "なし"
+  },
+  {
+    "type": "tool",
+    "name": "/ip",
+    "description": "IPアドレスの詳細情報を表示します",
+    "example": "/ip 8.8.8.8",
     "userPermission": [
       "必要なし"
     ],
@@ -639,7 +652,7 @@
       "チャンネルの閲覧",
       "メッセージの送信"
     ],
-    "note": "同じロールは選択できません。最大8個までロールを選択できます。ロールの付与にはレート制限があります"
+    "note": "同じロールは選択できません<br>最大8個までロールを選択できます<br>ロールの付与にはレート制限があります"
   },
   {
     "type": "money",
@@ -722,7 +735,7 @@
   {
     "type": "manage",
     "name": "/reset",
-    "description": "実行したチャンネルを完全にリセットします",
+    "description": "実行したチャンネルを**完全**にリセットします",
     "example": "/reset",
     "userPermission": [
       "管理者"
@@ -737,7 +750,7 @@
   {
     "type": "fun",
     "name": "/retranslate",
-    "description": "様々な言語で翻訳を30回繰り返します",
+    "description": "様々な言語で翻訳を繰り返します",
     "example": "/retranslate こんにちは",
     "userPermission": [
       "必要なし"
@@ -877,7 +890,7 @@
     "botPermission": [
       "必要なし"
     ],
-    "note": "有効なSnowflakeである必要があります"
+    "note": "有効な[Snowflake](https://discord.com/developers/docs/reference#snowflakes)である必要があります"
   },
   {
     "type": "bot",
@@ -919,7 +932,7 @@
     "botPermission": [
       "メンバーのモデレート"
     ],
-    "note": "秒単位でタイムアウトすることができます。秒が指定されない場合デフォルト(30秒)になります"
+    "note": "秒単位でタイムアウトすることができます<br>秒が指定されない場合デフォルト(30秒)になります"
   },
   {
     "type": "server",
@@ -932,6 +945,19 @@
     "botPermission": [
       "チャンネルの閲覧",
       "メッセージ履歴の閲覧"
+    ],
+    "note": "なし"
+  },
+  {
+    "type": "money",
+    "name": "/trade",
+    "description": "株の情報や取引をします",
+    "example": "/trade buy 3<br>/trade info",
+    "userPermission": [
+      "必要なし"
+    ],
+    "botPermission": [
+      "必要なし"
     ],
     "note": "なし"
   },
@@ -959,7 +985,7 @@
     "botPermission": [
       "必要なし"
     ],
-    "note": "検索ワードにユーザー名を指定することで特定のユーザーのツイートを取得できます"
+    "note": "検索ワードにid:ユーザー名を指定することで特定のユーザーのツイートを取得できます"
   },
   {
     "type": "board",
@@ -1011,7 +1037,7 @@
     "botPermission": [
       "必要なし"
     ],
-    "note": "指定するURLは有効なものである必要があります。一部のサイトはスクリーンショットが撮影できない場合があります"
+    "note": "指定するURLは有効なものである必要があります<br>一部のサイトはスクリーンショットが撮影できない場合があります"
   },
   {
     "type": "search",
@@ -1145,7 +1171,7 @@
       "メッセージの送信",
       "メッセージの管理"
     ],
-    "note": "最大6個まで作成できます。もう一度実行することでピン留めを削除できます"
+    "note": "最大6個まで作成できます<br>もう一度実行することでピン留めを削除できます"
   },
   {
     "type": "contextmenu",

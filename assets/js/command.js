@@ -19,6 +19,7 @@
   if(types[type]){
     const commandlist = await fetch("/assets/commandlist.json")
       .then(res=>res.json())
+      .catch(error=>alert(error.message));
 
     const list = commandlist.filter(c=>c.type === type);
 
