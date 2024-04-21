@@ -4,11 +4,12 @@ main .container {
 
 .users {
     margin-top: 15px;
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .icon {
     height: 80px;
-    margin: 15px
+    margin: 15px;
+    border-radius: 20%;
 }
