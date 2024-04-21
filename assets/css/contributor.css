@@ -1,0 +1,14 @@
+main .container {
+    margin-top: 90px;
+}
+
+.users {
+    margin-top: 15px;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.icon {
+    height: 80px;
+    margin: 15px
+}
