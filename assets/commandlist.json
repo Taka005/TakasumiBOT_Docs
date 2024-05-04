@@ -36,7 +36,7 @@
     "botPermission": [
       "必要なし"
     ],
-    "note": "アカウント情報の削除は[サポートサーバー](https://discord.gg/NEesRdGQwD)にて連絡してください"
+    "note": "アカウント情報の削除はサポートサーバーにて連絡してください"
   },
   {
     "type": "info",
@@ -88,7 +88,7 @@
     "botPermission": [
       "必要なし"
     ],
-    "note": "10秒に一回までしか生成できません"
+    "note": "なし"
   },
   {
     "type": "server",
@@ -319,6 +319,19 @@
     "note": "なし"
   },
   {
+    "type": "money",
+    "name": "/gift",
+    "description": "ギフトを作成、受け取りします",
+    "example": "/gif create 100コイン",
+    "userPermission": [
+      "必要なし"
+    ],
+    "botPermission": [
+      "必要なし"
+    ],
+    "note": "なし"
+  },
+  {
     "type": "server",
     "name": "/globalchat",
     "description": "色々なサーバーと繋がるグローバルチャットを有効化、無効化します",
@@ -333,7 +346,7 @@
       "メッセージの送信",
       "ウェブフックの管理"
     ],
-    "note": "会話するにはTakasumiBOT Authを使用し[利用規約](https://www.takasumibot.com/terms.html)に同意する必要があります"
+    "note": "会話するにはTakasumiBOT Authを使用し利用規約に同意する必要があります"
   },
   {
     "type": "tool",
@@ -657,7 +670,7 @@
   {
     "type": "money",
     "name": "/pay",
-    "description": "所持金を使用して機能を購入します",
+    "description": "所持金を使用して商品を購入します",
     "example": "/pay 種類 10",
     "userPermission": [
       "必要なし"
@@ -665,7 +678,7 @@
     "botPermission": [
       "必要なし"
     ],
-    "note": "グローバルチャットの色変更(黄色): 一回10円<br>グローバルチャットの色変更(赤色): 一回100円<br>グローバルチャットの色変更(青色): 一回800円"
+    "note": "グローバルチャットの表示色(黄色): 一回10コイン<br>グローバルチャットの表示色(赤色): 一回100コイン<br>グローバルチャット表示色(青色): 一回800コイン<br>グローバルチャット表示色(ランダム): 一回1500コイン"
   },
   {
     "type": "info",
@@ -711,6 +724,19 @@
     "name": "/random",
     "description": "ランダムで選びます",
     "example": "/random A B C",
+    "userPermission": [
+      "必要なし"
+    ],
+    "botPermission": [
+      "必要なし"
+    ],
+    "note": "なし"
+  },
+  {
+    "type": "tool",
+    "name": "/regex",
+    "description": "正規表現を検証します",
+    "example": "/regex [A-Z]{1,10} g ABCDEFD",
     "userPermission": [
       "必要なし"
     ],
@@ -890,7 +916,7 @@
     "botPermission": [
       "必要なし"
     ],
-    "note": "有効な[Snowflake](https://discord.com/developers/docs/reference#snowflakes)である必要があります"
+    "note": "有効なSnowflakeである必要があります"
   },
   {
     "type": "bot",
@@ -1076,7 +1102,7 @@
     "botPermission": [
       "必要なし"
     ],
-    "note": "100円から500円のお金が貰えます"
+    "note": "500コインから1000コインのお金が貰えます"
   },
   {
     "type": "search",
