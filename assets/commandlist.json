@@ -322,7 +322,7 @@
     "type": "money",
     "name": "/gift",
     "description": "ギフトを作成、受け取りします",
-    "example": "/gif create 100コイン",
+    "example": "/gift create 100コイン",
     "userPermission": [
       "必要なし"
     ],
@@ -590,8 +590,8 @@
   {
     "type": "money",
     "name": "/money",
-    "description": "ユーザーの所持金を確認します",
-    "example": "/money @User",
+    "description": "ユーザーの所持品や取引履歴を確認します",
+    "example": "/money",
     "userPermission": [
       "必要なし"
     ],
@@ -678,7 +678,7 @@
     "botPermission": [
       "必要なし"
     ],
-    "note": "グローバルチャットの表示色(黄色): 一回10コイン<br>グローバルチャットの表示色(赤色): 一回100コイン<br>グローバルチャット表示色(青色): 一回800コイン<br>グローバルチャット表示色(ランダム): 一回1500コイン"
+    "note": "グローバルチャットの表示色(黄色): 一回30コイン<br>グローバルチャットの表示色(赤色): 一回100コイン<br>グローバルチャット表示色(青色): 一回600コイン<br>グローバルチャット表示色(ランダム): 一回1200コイン"
   },
   {
     "type": "info",
@@ -757,6 +757,19 @@
       "招待リンクの作成"
     ],
     "note": "TakasumiBOT Authによる認証が必要です"
+  },
+  {
+    "type": "bot",
+    "name": "/report",
+    "description": "サポートに通報します",
+    "example": "/report",
+    "userPermission": [
+      "必要なし"
+    ],
+    "botPermission": [
+      "必要なし"
+    ],
+    "note": "偽の通報を繰り返し行うと処罰される可能性があります"
   },
   {
     "type": "manage",
@@ -1043,7 +1056,7 @@
   {
     "type": "manage",
     "name": "/ticket",
-    "description": "簡易的なチケット機能を作成します",
+    "description": "チケット機能を作成します",
     "example": "/ticket チケット 説明",
     "userPermission": [
       "チャンネルの管理",
@@ -1293,9 +1306,9 @@
   },
   {
     "type": "contextmenu",
-    "name": "メッセージをピン留め",
+    "name": "メッセージを固定",
     "description": "メッセージを常に下に表示します",
-    "example": "メッセージをピン留めをクリック",
+    "example": "メッセージを固定をクリック",
     "userPermission": [
       "チャンネルの管理",
       "メッセージの管理"
