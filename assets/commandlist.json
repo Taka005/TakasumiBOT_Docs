@@ -214,6 +214,19 @@
     "note": "なし"
   },
   {
+    "type": "money",
+    "name": "/debt",
+    "description": "借金を借りたり返済します",
+    "example": "/debt borrow 3000<br>/debt repay",
+    "userPermission": [
+      "必要なし"
+    ],
+    "botPermission": [
+      "必要なし"
+    ],
+    "note": "借りる金額は所持金の4倍が上限です<br>借りると5%の利子が付き、毎日1%の利子が付きます"
+  },
+  {
     "type": "manage",
     "name": "/del",
     "description": "指定された数だけメッセージを一括で削除します",
@@ -432,6 +445,19 @@
     "note": "なし"
   },
   {
+    "type": "money",
+    "name": "/history",
+    "description": "ユーザーの取引履歴を確認します",
+    "example": "/history",
+    "userPermission": [
+      "必要なし"
+    ],
+    "botPermission": [
+      "必要なし"
+    ],
+    "note": "なし"
+  },
+  {
     "type": "server",
     "name": "/invite",
     "description": "カスタマイズされた招待リンクを作成します",
@@ -590,8 +616,8 @@
   {
     "type": "money",
     "name": "/money",
-    "description": "ユーザーの所持品や取引履歴を確認します",
-    "example": "/money",
+    "description": "ユーザーの所持品を確認します",
+    "example": "/money<br>/money @User",
     "userPermission": [
       "必要なし"
     ],
@@ -774,7 +800,7 @@
   {
     "type": "manage",
     "name": "/reset",
-    "description": "実行したチャンネルを**完全**にリセットします",
+    "description": "実行したチャンネルを完全にリセットします",
     "example": "/reset",
     "userPermission": [
       "管理者"
