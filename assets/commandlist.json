@@ -759,19 +759,6 @@
     "note": "なし"
   },
   {
-    "type": "tool",
-    "name": "/regex",
-    "description": "正規表現を検証します",
-    "example": "/regex [A-Z]{1,10} g ABCDEFD",
-    "userPermission": [
-      "必要なし"
-    ],
-    "botPermission": [
-      "必要なし"
-    ],
-    "note": "なし"
-  },
-  {
     "type": "board",
     "name": "/register",
     "description": "サーバー掲示板に登録、削除を行います",
