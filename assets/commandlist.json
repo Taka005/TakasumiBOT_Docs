@@ -113,7 +113,7 @@
     "description": "メンバー認証を設定します<br>4種類の認証方式を選択できます",
     "example": "/auth 標準",
     "userPermission": [
-      "ロールの管理"
+      "管理者"
     ],
     "botPermission": [
       "ロールの管理",
@@ -335,14 +335,14 @@
     "type": "money",
     "name": "/gift",
     "description": "ギフトを作成、受け取りします",
-    "example": "/gift create 100コイン",
+    "example": "/gift create 100コイン<br>/gift get DsA3FaV",
     "userPermission": [
       "必要なし"
     ],
     "botPermission": [
       "必要なし"
     ],
-    "note": "なし"
+    "note": "ギフトの作成には作成する金額の5%の手数料が必要です"
   },
   {
     "type": "server",
@@ -407,6 +407,19 @@
     "name": "/hash",
     "description": "指定した方式でテキストをハッシュ化します",
     "example": "/hash テキスト SHA256",
+    "userPermission": [
+      "必要なし"
+    ],
+    "botPermission": [
+      "必要なし"
+    ],
+    "note": "なし"
+  },
+  {
+    "type": "money",
+    "name": "/hedge",
+    "description": "保険を契約、受け取りをします",
+    "example": "/hedge contract 1000<br>/hedge receive",
     "userPermission": [
       "必要なし"
     ],
@@ -525,7 +538,7 @@
   {
     "type": "money",
     "name": "/leaderboard",
-    "description": "お金持ちランキングを表示します",
+    "description": "ランキングを表示します",
     "example": "/leaderboard",
     "userPermission": [
       "必要なし"
@@ -704,7 +717,7 @@
     "botPermission": [
       "必要なし"
     ],
-    "note": "グローバルチャットの表示色(黄色): 一回30コイン<br>グローバルチャットの表示色(赤色): 一回100コイン<br>グローバルチャット表示色(青色): 一回600コイン<br>グローバルチャット表示色(ランダム): 一回1200コイン"
+    "note": "ガチャガチャ: 一回8000コイン<br>グローバルチャットの表示色(黄色): 一回30コイン<br>グローバルチャットの表示色(赤色): 一回100コイン<br>グローバルチャット表示色(青色): 一回600コイン<br>グローバルチャット表示色(ランダム): 一回1200コイン"
   },
   {
     "type": "info",
@@ -830,6 +843,19 @@
     "name": "/rolecount",
     "description": "それぞれのロールを持っている人数と割合を表示します",
     "example": "/rolecount",
+    "userPermission": [
+      "必要なし"
+    ],
+    "botPermission": [
+      "必要なし"
+    ],
+    "note": "なし"
+  },
+  {
+    "type": "money",
+    "name": "/roll",
+    "description": "ガチャを回します",
+    "example": "/roll 10",
     "userPermission": [
       "必要なし"
     ],
@@ -1218,6 +1244,19 @@
     "name": "/wiki",
     "description": "Wikipediaの検索をします",
     "example": "/wiki Discord",
+    "userPermission": [
+      "必要なし"
+    ],
+    "botPermission": [
+      "必要なし"
+    ],
+    "note": "なし"
+  },
+  {
+    "type": "money",
+    "name": "/word",
+    "description": "英単語ゲームをします",
+    "example": "/word",
     "userPermission": [
       "必要なし"
     ],
