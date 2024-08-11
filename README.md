@@ -1,1 +1,1 @@
-# TakasumiBOTドキュメンド
+# TakasumiBOT ドキュメンテーション
