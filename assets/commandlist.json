@@ -342,7 +342,7 @@
     "botPermission": [
       "必要なし"
     ],
-    "note": "ギフトの作成には作成する金額の5%の手数料が必要です"
+    "note": "ギフトの作成には作成する金額の15%の手数料が必要です"
   },
   {
     "type": "server",
@@ -426,7 +426,7 @@
     "botPermission": [
       "必要なし"
     ],
-    "note": "なし"
+    "note": "契約には手数料が必要です"
   },
   {
     "type": "othor",
@@ -744,6 +744,19 @@
       "リアクションの追加"
     ],
     "note": "選択肢は最大8個まで設定できます"
+  },
+  {
+    "type": "money",
+    "name": "/product",
+    "description": "商品の作成や購入をします",
+    "example": "/product create<br>/product list 全て",
+    "userPermission": [
+      "必要なし"
+    ],
+    "botPermission": [
+      "必要なし"
+    ],
+    "note": "商品の作成には手数料がかかります"
   },
   {
     "type": "tool",
@@ -1139,14 +1152,14 @@
     "type": "money",
     "name": "/trade",
     "description": "株の情報や取引をします",
-    "example": "/trade buy 3<br>/trade info",
+    "example": "/trade buy 3<br>/trade graph",
     "userPermission": [
       "必要なし"
     ],
     "botPermission": [
       "必要なし"
     ],
-    "note": "なし"
+    "note": "株の購入には手数料がかかります"
   },
   {
     "type": "tool",
