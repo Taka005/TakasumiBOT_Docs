@@ -12,3 +12,11 @@ main .container {
     margin-top: 10px;
     position: relative;
 }
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: black;
+}
